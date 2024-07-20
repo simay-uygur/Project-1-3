@@ -2,7 +2,7 @@
 Three projects that is on Patika Java Course.
 
 
-## Project 1
+## Project 1: SELECTION SORT
 
 This is the given array [22,27,16,2,18,6].
 According to Selection sort, the steps are
@@ -29,7 +29,7 @@ According to the selection sort, the first 4 steps for sorting the array [7,3,5,
 
 
 
-## Project 2
+## Project 2: MERGE SORT
 
 The processes of sorting the array [16,21,11,8,12,22] with Merge Sort are:
 
@@ -50,5 +50,28 @@ The Big-O notation for merge sort is (worst-case time complexity) O(nlogn). Beca
 
 
 
-## Project 3
+## Project 3: BINARY TREE
+
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] given this array ,the processes of binary tree are:
+
+Root is 7. 5 is less than the root, therefore it goes to the left of the 7. 
+1 is less than 7 and 5, so it is placed on the left of 5.
+8 is greater than 7 (root), so it goes to the right of 7. 
+3 is less than 7 and 5 but greater than 1 therefore it is on the right of 1.
+6 is greater than 5 less than 7, it goes to the right of 5. 9 is greater than 7 and 8, so it goes to the right of 8.
+4 ia less than 6. It goes to the left of 6.
+2 goes to the left of 3. 
+Overall, tree structure is done.
+
+The visualization:
+
+        7
+       / \
+      5   8
+     / \   \
+    1   6   9
+   / \  /
+  0  3  4
+     /
+    2
 
