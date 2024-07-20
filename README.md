@@ -63,8 +63,8 @@ Root is 7. 5 is less than the root, therefore it goes to the left of the 7.
 2 goes to the left of 3. 
 Overall, tree structure is done.
 
+´´´ 
 The visualization:
-
         7
        / \
       5   8
@@ -74,4 +74,4 @@ The visualization:
   0  3  4
      /
     2
-
+´´´
